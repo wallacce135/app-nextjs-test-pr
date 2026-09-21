@@ -16,6 +16,7 @@ export default async function HomePage() {
     <div className={styles.page}>
       <section className={styles.hero}>
         <p className={styles.badge}>Server-Side Rendering</p>
+        <h1 className={styles.title}>Тестирование новой ветки на стенде</h1>
         <h1 className={styles.title}>Эту страницу собрал сервер</h1>
         <p className={styles.lead}>
           Браузер получил готовый HTML со значениями ниже: они вычисляются в Node.js на каждый
