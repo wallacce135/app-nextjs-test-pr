@@ -1,3 +1,4 @@
+Привет
 Пример приложения Next.js с серверным рендерингом (SSR), которое можно развернуть в Timeweb Cloud Apps без настройки.
 
 🚀 [Создать свой Apps](https://timeweb.cloud/my/apps/create)
