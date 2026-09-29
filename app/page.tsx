@@ -11,6 +11,7 @@ export default async function HomePage() {
   // Данные собираются на сервере при каждом запросе — ничего из этого
   // не зафиксировано на этапе сборки.
   const { requestId, renderedAt, request, runtime } = await getServerInfo()
+  console.log('11');
 
   return (
     <div className={styles.page}>
