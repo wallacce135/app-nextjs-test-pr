@@ -18,6 +18,7 @@ export default async function HomePage() {
         <p className={styles.badge}>Server-Side Rendering</p>
         <h1 className={styles.title}>Тестирование новой ветки на стенде</h1>
         <h1 className={styles.title}>Эту страницу собрал сервер</h1>
+        <h1>Hello world!!!</h1>
         <p className={styles.lead}>
           Браузер получил готовый HTML со значениями ниже: они вычисляются в Node.js на каждый
           запрос. Нажмите кнопку или обновите страницу — сервер отрендерит её заново, и{' '}
