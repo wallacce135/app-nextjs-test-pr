@@ -40,6 +40,7 @@ export default async function HomePage() {
             <Row label="IP клиента" value={request.ip} mono />
             <Row label="Accept-Language" value={request.language} mono />
             <Row label="User-Agent" value={request.userAgent} mono />
+            <p>Hello world</p>
           </dl>
         </section>
 
