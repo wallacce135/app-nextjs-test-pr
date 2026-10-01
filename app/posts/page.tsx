@@ -17,6 +17,7 @@ export const metadata = {
 }
 
 export default function PostsPage() {
+  console.log('new-new-new-stand')
   return (
     <div className={styles.page}>
       <section className={styles.header}>
