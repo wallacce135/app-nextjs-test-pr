@@ -17,6 +17,7 @@ export const metadata = {
 }
 
 export default function PostsPage() {
+  console.log('pre-last-new-stand')
   return (
     <div className={styles.page}>
       <section className={styles.header}>
