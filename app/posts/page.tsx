@@ -41,10 +41,13 @@ async function PostList() {
 
   if (!result) {
     return (
-      <p className={styles.error}>
-        Не удалось получить данные из <code>{API_URL}</code>. Проверьте доступ в интернет с сервера
-        приложения.
-      </p>
+        <>
+          <h1>Привет</h1>
+          <p className={styles.error}>
+            Не удалось получить данные из <code>{API_URL}</code>. Проверьте доступ в интернет с сервера
+            приложения.
+          </p>
+        </>
     )
   }
 
