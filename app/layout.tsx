@@ -11,6 +11,8 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
+
+  console.log('11');
   return (
     <html lang="ru">
       <body>
